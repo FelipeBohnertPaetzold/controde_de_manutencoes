@@ -13,3 +13,4 @@ Homestead.json
 /public/js
 /public/css
 resources/bower_components
+.idea/workspace.xml
