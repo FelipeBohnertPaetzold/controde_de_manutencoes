@@ -3,43 +3,23 @@
     <head>
         <title>Laravel</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimal-ui">
+        <link href="{{ elixir('css/all.css') }}" rel="stylesheet"/>
 
-        <style>
-            html, body {
-                height: 100%;
-            }
-
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
-        </style>
     </head>
     <body>
         <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
+            <div class="coll-md-12">
+                <div class="well">
+                    <div class="form-group form-group-sm label-floating">
+                        <label for="i4" class="control-label">Email address form-group-sm</label>
+                        <input type="email" class="form-control" id="i4">
+                        <span class="help-block">Please enter a valid email address</span>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <script src="{{ elixir('js/all.js') }}"></script>
     </body>
 </html>
