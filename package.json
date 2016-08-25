@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^5.0.0"
+  },
+  "dependencies": {
+    "bootstrap-material-design": "^0.5.10",
+    "gulp-livereload": "^3.8.1",
+    "rimraf": "^2.5.3"
+  }
+}

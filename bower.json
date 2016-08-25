@@ -1,0 +1,26 @@
+{
+  "name": "Manutencoes vicentinos",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Felipe Bohnert Paetzold <ti2@vicentinos.com.br>",
+    "Emerson Dario <ti@vicentinos.com.br>"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.vicentinos.com.br",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.6",
+    "components-font-awesome": "^4.6.3"
+  }
+}
